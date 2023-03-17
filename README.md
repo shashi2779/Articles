@@ -11,7 +11,7 @@
 
 
 
-## note 
+## how to upload img on github
     
     
     #image upload karne k liye :
