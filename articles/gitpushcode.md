@@ -4,18 +4,21 @@
 #### GitHub commands : 
 - 30 dec
 - search gitbash :
-   - 1st step : 
+- 1st step :=>
    - go to gitbash -> get commands
      - git config --global user.name "userName" (github userName)
      - git config --global user.email "email" (github prr jis email se login liaa hai)
    - then close and go on gihub account
-- go to github account
+- 2nd step => 
+- go to github account 
      - create "new repository" => with "new button"
      - get "repository-name" & go on "public" and press "create repository" button
      - then you get git command , after
+- 3rd step =>
 - ek "new folder" banaye usme sara website ka code with file le krr aa jayegen "new folder" me 
    - aur dusari chij website ka name "website.html" se change krr k "index.html" krr dena hai . matlab html file ka nam index.html hi hona chahiye aur dusara nam nahi
    - phir ess new-folder me "gitbash" open karegen phir ess gitbash par github command run karegen 
+- 4th step =>
 - run github commands on gitbash in folder
      - git status 
         - toh error aaya bcz hamne git ko initializes hi nhi kia then run "git init"
