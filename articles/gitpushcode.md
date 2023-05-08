@@ -12,8 +12,8 @@
 - go to github account
      - create "new repository" => with "new button"
      - get "repository-name" & go on "public" and press "create repository" button
-     - then you get git command 
-  - after , ek "new folder" banaye usme sara website ka code with file le krr aa jayegen "new folder" me aur dusari chij website ka name "website.html" se change krr k "index.html" krr dena hai . matlab html file ka nam index.html hi hona chahiye aur dusara nam nahi
+     - then you get git command , after
+- ek "new folder" banaye usme sara website ka code with file le krr aa jayegen "new folder" me aur dusari chij website ka name "website.html" se change krr k "index.html" krr dena hai . matlab html file ka nam index.html hi hona chahiye aur dusara nam nahi
      - phir ess new-folder me gitbash open karegen phir ess gitbash par github command run karegen 
      - run this commands on gitbash
      - git status 
