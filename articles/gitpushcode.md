@@ -39,7 +39,7 @@
         - git push -u origin main => nhi chalega error aayega master degen
 #### Note : 
   - jab bhi aap static website ko deploy karne ja rhe ho toh aapki HTML files "index.html" hi ho
-- 2nd command => folder me ja ke 
+- 2nd command => folder me ja ke likha hai
 ![](img/gitImg.png)
 
 ### how to deploy our website on github :
