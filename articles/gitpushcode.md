@@ -18,7 +18,8 @@
 - run github commands on gitbash in folder
      - git status 
         - toh error aaya bcz hamne git ko initializes hi nhi kia then run "git init"
-     - git init ==> jisse empty repository initialozes ho jati hai 
+     - git init 
+        - jisse empty repository initialozes ho jati hai 
      - git status  
          - esko chalane se file red color me show ho matlab abhi file git pr commit nhi huyi hai => commit ka matlab hmm ess file ko git prr bhejni hai
      -  git add .
