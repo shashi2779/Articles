@@ -22,3 +22,6 @@
     #link lagane k liye:
                            [ link ](https://www.geeksforgeeks.org/this-reference-in-java/?ref=lbp) click
 
+
+
+# how to push code on gitHub 
