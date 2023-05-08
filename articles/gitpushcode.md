@@ -15,7 +15,7 @@
      - then you get git command , after
 - ek "new folder" banaye usme sara website ka code with file le krr aa jayegen "new folder" me 
    - aur dusari chij website ka name "website.html" se change krr k "index.html" krr dena hai . matlab html file ka nam index.html hi hona chahiye aur dusara nam nahi
-     - phir ess new-folder me "gitbash" open karegen phir ess gitbash par github command run karegen 
+   - phir ess new-folder me "gitbash" open karegen phir ess gitbash par github command run karegen 
 - run github commands on gitbash in folder
      - git status 
         - toh error aaya bcz hamne git ko initializes hi nhi kia then run "git init"
