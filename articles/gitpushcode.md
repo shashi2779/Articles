@@ -8,7 +8,7 @@
    - go to gitbash -> get commands
      - git config --global user.name "userName" (github userName)
      - git config --global user.email "email" (github prr jis email se login liaa hai)
-     - then close and go on gihub account
+   - then close and go on gihub account
 - go to github account
      - create "new repository" => with "new button"
      - get "repository-name" & go on "public" and press "create repository" button
