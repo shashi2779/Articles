@@ -72,7 +72,7 @@ Img website : "unsplash.com"
 - but mai chahta hu move kare wo element but uss div ke bahar nhi , toh "position : relative" karr degen.
 - jisake ander uss element ko rakhana hai use "position: relative" banayegen.
 
-## display property :
+### display property :
 ##### diplay : flex :
 - mana ek div me three element liye wo ek dusare ke niche aa rhe hai , unhe alag-bagal karna hai toh , div ko "display: flex" krr degen
 - ye element ko agal- bagal krr deta hai 
