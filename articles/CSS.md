@@ -27,13 +27,12 @@ html,body{
 - eg . px
 
 ##### Relative:
+- easily scable in responsive
 ###### rem : 
 - relative to HTML element
 - bydefault HTML element value = 16px hoti hai
 
 ![]()
-
-- easily scable in responsive
 ###### em :
 - it depends on parent element
 ![]()
