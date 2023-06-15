@@ -63,13 +63,13 @@ background-position: center/bottom/top;
 Img website : "unsplash.com"
 ```
 ### postion : absolute 
-- three car hai ek ke bad ek , man lo bich wali car ko uthaya bridge prr le aya toh niche wali third wali car move krr ke 2nd wali position prr pahoch gayi ,
-- toh third wali car 2nd wali k niche hai toh third wali dikhegi nhi (bridge ke upar se dekhane me )
+- three car hai ek ke bad ek , mann lo bich wali car ko uthaya bridge prr le aya toh niche wali third wali car move krr ke 2nd wali position prr pahoch gayi ,
+- toh third wali car 2nd wali k niche hai , toh third wali dikhegi nhi (bridge ke upar se dekhane me )
 - matlab position : absolute kar ke uss element move kra sakte hai kidhar bhi
 ### postion : relative
-- kisi div me koi element hai usko move karana chah rhe toh position : absolute kar ke move kra sakte hai uss div ke bahar bhi le ja sakte hai
-- but mai chahta hu move kare wo element but uss div ke bahar nhi toh position : relative karr degen.
-- jisake ander uss element ko rakhana hai use position: relative banayegen.
+- kisi div me koi element hai usko move karana chah rhe toh "position : absolute" kar ke move kra sakte hai uss div ke bahar bhi le ja sakte hai
+- but mai chahta hu move kare wo element but uss div ke bahar nhi , toh "position : relative" karr degen.
+- jisake ander uss element ko rakhana hai use "position: relative" banayegen.
 
 ### position : flex :
 - mana ek div me three element liye wo ek dusare ke niche aa rhe hai , unhe alag-bagal karna hai toh , div ko "display: flex" krr degen
