@@ -76,12 +76,13 @@ Img website : "unsplash.com"
 - mana ek div me three element liye wo ek dusare ke niche aa rhe hai , unhe alag-bagal karna hai toh , div ko "display: flex" krr degen
 - ye element ko agal- bagal krr deta hai 
 - display : flex
+- display : flex karne se do axis khul jati hai x-axis , y-axis . x-axis prr "justify-content" se arrange/manage karte hai , y-axis pr "align-item" se arrange/manage karte hai
 ### flex-direction : column;
 - ye column me arrenge kar dega 
 ### justify content : center 
 - horizontal arrange krr k data hai
-   - yha center kiye hai
+   - yha horizontal "center" kiye hai
 ### align item : center
 - vertically arrange krr k data hai
-   - yha center kiye hai
+   - yha vertically "center" kiye hai
 
