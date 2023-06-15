@@ -63,6 +63,7 @@ background-position: center/bottom/top;
 Img website : "unsplash.com"
 ```
 ### postion : absolute 
+- static , relative , absolute , fixed , sticky
 - three car hai ek ke bad ek , mann lo bich wali car ko uthaya bridge prr le aya toh niche wali third wali car move krr ke 2nd wali position prr pahoch gayi ,
 - toh third wali car 2nd wali k niche hai , toh third wali dikhegi nhi (bridge ke upar se dekhane me )
 - matlab position : absolute kar ke uss element move kra sakte hai kidhar bhi
