@@ -28,6 +28,7 @@ html,body{
 
 ##### Relative:
 - easily scable in responsive
+- rem , em , vh ,vw ,%
 ###### rem : 
 - relative to HTML element
 - bydefault HTML element value = 16px hoti hai
