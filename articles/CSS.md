@@ -23,7 +23,7 @@ html,body{
 
 ##### absolute :
 - not responsive
-- not scable 
+- not scalable
 - eg . px
 
 ##### Relative:
