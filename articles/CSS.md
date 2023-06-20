@@ -88,5 +88,6 @@ Img website : "unsplash.com"
    - yha vertically "center" kiye hai
 
 
-### background
+### media query
+[how to use media query for multiple device in css](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
