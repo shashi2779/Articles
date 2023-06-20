@@ -35,6 +35,25 @@ npm install bootstrap@5.3.0
 ```
 [read from this](https://getbootstrap.com/docs/5.3/components/badge/)
 
+### hmm apani bhi css add kar sakte hai Bootstrap k sath :
+- className = "btn btn-primary  demo"
+```js
+.demo{
+    fontsize : 10px;
+}
+```
+- mana ki koi class Bootstrap me bhi hai, aur mai bhi wahi class diaa hai toh , 
+  apne class ka effect dikhane k liye "!important" use kare . [override] ho jayega.
+```js
+
+className = "btn btn-primary  btn"
+
+.btn{
+    button-color:red; !important
+}
+
+```
+
 ------------------------------------------
 ### Imp topics
 - List Group
@@ -85,21 +104,4 @@ npm install bootstrap@5.3.0
 
 - buttons :
 [how to use buttons in bootstrap](https://getbootstrap.com/docs/5.3/components/buttons/)
-### hmm apani bhi css add kar sakte hai Bootstrap k sath
-- className = "btn btn-primary  demo"
-```js
-.demo{
-    fontsize : 10px;
-}
-```
-- mana ki koi class Bootstrap me bhi hai, aur mai bhi wahi class diaa hai toh , 
-  apne class ka effect dikhane k liye "!important" use kare . [override] ho jayega.
-```js
 
-className = "btn btn-primary  btn"
-
-.btn{
-    button-color:red; !important
-}
-
-```
