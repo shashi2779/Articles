@@ -35,6 +35,15 @@ npm install bootstrap@5.3.0
 ```
 [read from this](https://getbootstrap.com/docs/5.3/components/badge/)
 
+------------------------------------------
+### Imp topics
+- List Group
+- Grid system
+- Card
+- Carousel
+- Dropdowns
+- buttons
+--------------
 - List group in bootStrap :
 [read list group](https://getbootstrap.com/docs/5.3/components/list-group/)
 
