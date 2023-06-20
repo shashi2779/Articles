@@ -91,3 +91,25 @@ Img website : "unsplash.com"
 ### media query
 [how to use media query for multiple device in css](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
+- portrait vs landscape
+[tablet portrait vs landscape](https://www.scientiamobile.com/smartphone-vs-tablet-orientation-whos-using-what/)
+
+- Imp
+[watch responsive](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery_breakpoints)
+```js
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+```
+
