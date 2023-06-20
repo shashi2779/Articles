@@ -94,7 +94,7 @@ Img website : "unsplash.com"
 - portrait vs landscape
 [tablet portrait vs landscape](https://www.scientiamobile.com/smartphone-vs-tablet-orientation-whos-using-what/)
 
-- Imp
+- Imp :
 [watch responsive](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery_breakpoints)
 ```js
 /* Extra small devices (phones, 600px and down) */
