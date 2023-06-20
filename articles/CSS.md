@@ -91,7 +91,9 @@ Img website : "unsplash.com"
 ### media query
 [how to use media query for multiple device in css](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
-- portrait vs landscape
+#### portrait vs landscape
+- portrait => sidha tablet
+- landscape => ghuma diaa 
 [tablet portrait vs landscape](https://www.scientiamobile.com/smartphone-vs-tablet-orientation-whos-using-what/)
 
 - Imp :
