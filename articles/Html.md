@@ -269,13 +269,13 @@ youtube ka video lagana hai apane html me
 
 <input type="checkbox">	Displays a checkbox (for selecting "zero or more" of many choices)
 
-<input type="file" >   Upload img
-
-<input type="reset" >   form reset
-
 <input type="submit">	Displays a submit button (for submitting the form)
 
 <input type="button">	Displays a clickable button
+
+<input type="file" >   Upload img
+
+<input type="reset" >   form reset
 
 ```
 ```js
