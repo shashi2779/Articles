@@ -110,14 +110,14 @@ cursor-pointer
   - rounded
   - rounded-full
 ```js
-rounded-none	border-radius: 0px;
-rounded-sm	  border-radius: 0.125rem; /* 2px */
-rounded	      border-radius: 0.25rem; /* 4px */
-rounded-md	  border-radius: 0.375rem; /* 6px */
-rounded-lg	  border-radius: 0.5rem; /* 8px */
-rounded-xl	  border-radius: 0.75rem; /* 12px */
-rounded-2xl	  border-radius: 1rem; /* 16px */
-rounded-3xl	  border-radius: 1.5rem; /* 24px */
+rounded-none	 border-radius: 0px;
+rounded-sm	     border-radius: 0.125rem; /* 2px */
+rounded	         border-radius: 0.25rem; /* 4px */
+rounded-md	     border-radius: 0.375rem; /* 6px */
+rounded-lg	     border-radius: 0.5rem; /* 8px */
+rounded-xl	     border-radius: 0.75rem; /* 12px */
+rounded-2xl	     border-radius: 1rem; /* 16px */
+rounded-3xl	     border-radius: 1.5rem; /* 24px */
 ```
 - border-radius : 
   - rounded-b-xl (rounded bottom xl) 
