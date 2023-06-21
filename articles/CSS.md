@@ -115,3 +115,23 @@ Img website : "unsplash.com"
 @media only screen and (min-width: 1200px) {...}
 ```
 
+### Display property in css
+- display : block;
+- display : inline;
+- display : inline-block;
+```js
+block :   
+        - full space occupy
+        - line break => new line se new elment start
+        - height , width de sakte hai
+        - div , h1 , h2 , p....
+Inline :
+        - hight , width ka koi effect nhi padhta bcz jitna content ka require hai utna hi consume karega
+        - line break nhi hoti , ek element ke bad dusra element aa sakta hai
+        - ye required space hi lega
+        - span , a , img
+
+inline-block :
+              - same inline 
+              - but add width & height          
+```  
