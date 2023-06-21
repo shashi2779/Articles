@@ -38,9 +38,9 @@
 <h1> tag se sabse "bda" me 
 <h6> tag se sabse chota me 
 
-<br/> => tag se line break hota hai
+<br/> => tag se "line break" hota hai
 
-<hr> => horizontal line aa jayega
+<hr> => horizontal "line" aa jayega
 
 <b> tag => for bold 
 
