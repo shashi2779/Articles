@@ -3,14 +3,14 @@
 ```js
 <html>
 
-<head>
+  <head>
 
-</head>
+  </head>
 
-<body>
+  <body>
 
 
-</body>
+  </body>
 
 </html>
 ```
@@ -18,15 +18,15 @@
 ```js
 <html>
 
-<head>
+  <head>
 
-  <title>website name</title>
-</head>
+    <title>website name</title>
+  </head>
 
-<body>
+  <body>
 
 
-</body>
+  </body>
 
 </html>
 ```
