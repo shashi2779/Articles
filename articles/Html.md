@@ -1,4 +1,5 @@
 ## HTML - hypertext markup language
+- for creating webpage
 
 ```js
 <html>
@@ -48,6 +49,74 @@
 <a href=" link of youtube ">youtube</a>
 
 ```
+#### id vs class
+- class : 
+  - A Class name can be used by multiple HTML elements
+  - kisi bhi element ko same class nam de sakte hai
+- id:
+  - while an ID name must only be used by one HTML element within the page
+  - unique ,
+  - id ka nam , multiple html element ko nhi de sakte , hmm kisi ek hi html element ko "id" de sakte hai 
+
+###  What are the various formatting tags in HTML?
+```js
+
+<b> - makes text bold
+<i> - makes text italic
+<em> - makes text italic but with added semantics importance
+     - search engine optimization ke liye em tag use karte hai , ye kam italic bhi kar deta hai
+<strong> - marks the text as important
+<big> - increases the font size of the text by one unit
+<small> - decreases the font size of the text by one unit
+<sub> - makes the text a subscript
+<sup> - makes the text a superscript
+<del> - displays as strike out text
+<mark> - highlights the text
+<ins> - displays as added text
+
+```
+### head vs body tag :
+### Link :
+### how many ways we can specify css
+- inline
+   - here we use the 'style' attribute inside the HTML element
+- Internal
+   - ```js
+       here we use <style> tag inside the <head> tag or <body> tag me niche
+    ```
+- External
+   - ```js
+       here we use the <link> tag inside <head> tag to refrance the css file into our HTML code.
+
+      ```
+#### html with js
+```js
+<script></script> tag use karte hai "js" ke code ko html me likhane ke liye.
+``` 
+### semantic tag in html
+```js
+header
+nav
+main
+section
+article
+aside
+footer
+``` 
+### block vs inline vs inline-block
+```js
+block :   
+        - full space occupy
+        - line break => new line se new elment
+        -
+Inline :
+        - hight , width ka effect nhi padhta
+        - line break nhi hoti , ek element ke bad dusra element aa sakta hai
+
+inline-block :
+              - same inline 
+              - but add width & height          
+```   
 #### List in html
 - order list
 ```js
