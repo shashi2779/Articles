@@ -340,6 +340,14 @@ youtube ka video lagana hai apane html me
 [read select tag](https://www.w3schools.com/tags/tag_select.asp)
 - aap "select" karo car "option" bahot hai.  [learn karne ka aasan tarika]
 ```js
+<select >
+    <option >Volvo</option>
+    <option >Saab</option>
+    <option >Opel</option>
+    <option >Audi</option>
+</select>
+```
+```js
 <select name="cars" id="cars">
     <option value="volvo">Volvo</option>
     <option value="saab">Saab</option>
