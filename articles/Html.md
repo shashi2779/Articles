@@ -272,7 +272,7 @@ youtube ka video lagana hai apane html me
 <input type="submit">	Displays a submit button (for submitting the form)
 
 <input type="button">	Displays a clickable button
-
+----------------------------------------------------------
 <input type="file" >   Upload img
 
 <input type="reset" >   form reset
