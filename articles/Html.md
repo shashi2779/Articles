@@ -36,8 +36,8 @@
 ```js
 
 <h1> tag to <h6> tag hota hai
-<h1> tag se sabse "bda" me 
-<h6> tag se sabse chota me 
+   <h1> tag se sabse "bda" me 
+   <h6> tag se sabse chota me 
 
 <br/> => tag se "line break" hota hai
 
