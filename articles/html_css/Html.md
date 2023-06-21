@@ -338,6 +338,27 @@ youtube ka video lagana hai apane html me
 ```
 ### select tag [imp interviews]
 [read select tag](https://www.w3schools.com/tags/tag_select.asp)
+```js
+<select name="cars" id="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+</select>
+```
+```js
+<form action="/action_page.php">
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+</form>
+```
 
 
 
