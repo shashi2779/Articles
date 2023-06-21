@@ -368,7 +368,7 @@ youtube ka video lagana hai apane html me
         <input type="submit" value="Submit">
 </form>
 ```
-- option group[option ka group kar do] aa gya ki kha ka car lena hai => swedish cars , german cars
+- option group(option ka group kar do) aa gya ki kha ka car lena hai => swedish cars , german cars
 ```js
 <form action="/action_page.php">
   <label for="cars">Choose a car:</label>
