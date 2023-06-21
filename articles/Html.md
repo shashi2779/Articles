@@ -31,7 +31,7 @@
 </html>
 ```
 
--
+- Tags
 ```js
 
 <h1> tag to <h6> tag hota hai
