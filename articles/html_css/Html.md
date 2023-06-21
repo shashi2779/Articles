@@ -338,6 +338,7 @@ youtube ka video lagana hai apane html me
 ```
 ### select tag [imp interviews]
 [read select tag](https://www.w3schools.com/tags/tag_select.asp)
+- aap "select" karo car "option" bahot hai.  [learn karne ka aasan tarika]
 ```js
 <select name="cars" id="cars">
     <option value="volvo">Volvo</option>
