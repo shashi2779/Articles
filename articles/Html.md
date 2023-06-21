@@ -76,7 +76,28 @@
 
 ```
 ### head vs body tag :
+```js
+<body> tag
+- define the body of html document.
+- <p> , <img> , <audio> ,<video> ,<div> ...etc
+
+<head> tag
+- provide info about the document
+- <link> , <meta> ,<style> , <script> 
+```
 ### Link :
+```js
+<a> tag
+
+<a href="url">link text</a>
+
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+
+
+href="url" me url dete hai
+
+target -> batata hai same window me open hogi ya different window me
+````
 ### how many ways we can specify css
 - inline
    - here we use the 'style' attribute inside the HTML element
@@ -107,11 +128,14 @@ footer
 ```js
 block :   
         - full space occupy
-        - line break => new line se new elment
-        -
+        - line break => new line se new elment start
+        - height , width de sakte hai
+        - div , h1 , h2 , p....
 Inline :
-        - hight , width ka effect nhi padhta
+        - hight , width ka koi effect nhi padhta bcz jitna content ka require hai utna hi consume karega
         - line break nhi hoti , ek element ke bad dusra element aa sakta hai
+        - ye required space hi lega
+        - span , a , img
 
 inline-block :
               - same inline 
