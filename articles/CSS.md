@@ -85,7 +85,7 @@ Img website : "unsplash.com"
    - yha horizontal "center" kiye hai
 ##### align item : center
 - vertically arrange krr k data hai
-   - yha vertically "center" kiye hai
+   - yha vertically "center" kiye hai    
 
 
 ### media query
@@ -93,7 +93,7 @@ Img website : "unsplash.com"
 
 #### portrait vs landscape
 - portrait => sidha tablet
-- landscape => ghuma diaa 
+- landscape => ghuma diaa  
 [tablet portrait vs landscape](https://www.scientiamobile.com/smartphone-vs-tablet-orientation-whos-using-what/)
 
 - Imp :
