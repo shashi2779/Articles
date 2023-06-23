@@ -15,6 +15,111 @@ html,body{
 }
 
 ```
+### Property :
+- icon prr bhi width,height ,all property de sakte hai
+- a tag se bhi button bna sakte hai , width,height de krr 
+- color uthane ke liye dusare jagah/website se "color-picker" use karte hai.
+```js
+width:100vw   ✅
+height:100vh  ✅
+
+min-height
+min-width
+
+width
+min-height
+Note : 
+      min-height:100vh parent me toh aap child me height:100% or 50% nhi de sakte bcz aap parent me min-height liye hai , toh child k height me px use kare . height:120px .. etc
+
+
+padding :0 70px;   
+   - 0 ->  upar-niche[top-bottom] , 
+   - 70px -> agal-bagal[left-right]
+   - padding se content ke around space dete hai
+
+
+margin :0 auto;
+   - width:90%; de kar margin:0 auto karo
+   - eg.  center krr sakte hai agal-bagal se div ko ya other things
+   - element ke around space de sakte hai
+
+
+<a> tag se button bna lo , padding de kar , padding : 14px 32px;
+button me box-shadow de do
+text-decoration : none
+   - <a> tag se line hatane k liye
+
+
+text-align : center   // imp => font ko bich me manage karne ke liye (lec-43 26:30 min)
+font-weight  // font-weight sath me de sakte hai axa lagne ke liye
+font-size
+
+
+box-shadow :
+  - text or other things prr shadow de sakte hai
+
+
+ background-image: url("paper.gif");
+   - background me img lagane ke liye [full screen]
+
+
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+   - img ko dikhane ke liye
+
+
+
+font-family
+font-weight
+opacity :.5  // text ka opacity
+text-shadow 
+
+
+hover
+
+
+transition: all cubic-bezier(0.19,1,0.22,1) 1s;
+
+
+dispay :inline-block
+   - agar tum element ko width,height de rhe ho aur wo width height kam nhi kar rhi hai,toh tumhara element "display:inline" hai , toh inline element ko kaise treat kiaa jata hai => inline-block de kar ke 
+   - display inline-block krr dene se hamm usse width,height de sakte hai
+
+
+
+<span>
+   - span tag se taget krr ke kisinka color change krr sakte hai
+   - target krr ke fonts bda kar sakte hai
+
+
+
+<b></b>  => for bold element
+
+
+display:flex
+flex-direction:column
+justify-content: center, space-between, space-evenly(aas-passs) , space-around
+align-tem
+
+
+position:absolute;
+top:50%;
+left:50%
+transform:translate(-50%,-50%)
+
+
+
+#card .card:nth-child(1){
+   box-shadow
+   background: linear-gradient(to right bottom, color, color)
+}
+
+```
+### fonts
+```js
+PlayFair Display
+montserrat
+
+```
 
 ### css units :
 - units :
@@ -29,6 +134,10 @@ html,body{
 ##### Relative:
 - easily scable in responsive
 - rem , em , vh ,vw ,%
+##### note :
+- px, em , rem  are primarily used for font sizing.
+- % ,vw , vh are mostly used for margin , padding , spacing , and width/height
+- use toh hmm kisi ka kahi bhi karr sakte hai prr mostely use jha hota hai wo bataya hai
 ###### rem : 
 - relative to HTML element
 - bydefault HTML element value = 16px hoti hai
@@ -39,6 +148,9 @@ html,body{
 ![]()
 ###### vh :
 - relative to viewsport height
+- viewsport -> jitna screen prr dikh rha hai
+- 100vh -> 100% of screen
+- 70vh -> 70% of screen
 ![]()
 ###### vw :
 - relative to viewsport width
