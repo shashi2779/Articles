@@ -135,3 +135,71 @@ inline-block :
               - same inline 
               - but add width & height          
 ```  
+
+### How to improve/grow user experience :
+- follow the structure 
+    - eg. reading left to write , top to bottom hota aaya hai.
+    - eg. nab bar me brand name ho , main content me kya rakhna hai
+    - imp content above rahna chahiye jiise pta chal jaye website kis bare me hai 
+
+- match standard
+   - sare website grid pattern me bani hoti hai, toh hame dhyan rakhna chahiye ki hamara website ek pattern follow kare
+   - agar aap idea se masterpiece banana chah rhe ,toh user availability na dekh kar aapke idea ke unique par dhyan dena chahiye..... 
+   - aap chahe unique + standard ka combination kar ke bhi ek achchi UI bna sakte hai.
+   - website design ke liye kayi UI framework bhi aate hai. eg. Bootstrap , tailwindcss , mob-> react native , flutter
+- understand 3 sec rule
+   -  agar koi visiter aapke website pe google ya social-media se aata hai , toh aapke website ko 3 sec tak dekhata hai , agar use interesting na dikhe toh wo tap close kar deta hai.
+   -  agar aapke website me loading time jzada hai toh aap apni website pe pahle interesting pre-load dikha sakte hai(wireframe type). jisse use ka interest bna rhe.
+   -  responsive ho , mob me utna hi dikhayiye jitna jaruri hai.
+- Don't let your visitor lost in navigation [apne user ko navigation me bhatakane na de]
+   -  eg. Home , Portfolio , Blog , Shop
+   -  jab bhi aap website ko navigation banate ho , navigation ke highlight prr bhi dhyan de jaise navigation prr click karte hi kuch indication aana chahiye , ki hamm kha se kha ja rhe hai.
+   -  agar form me koi details bharwa rhe toh sara content 3 click se jada na ho
+   -  website me aap tap switching me bhi kuch na kuch add kar sakte hai , eg. transzation add kar sakte hai.
+   -  aapka content jaldi mil jaye esliye "search" ka hona jaruri hai.
+
+- Balance your design 
+   - kisi me design me text content & images ka balance hona bahot jaruri hai bcz ek image hajaro words ka auda deti hai.
+   - aap jab design banaye toh dhyan rakhe ki aapko content boring na ho eske liye aap kuch jagah prr graphic & images use karr sakte hai.
+   - fonts website ko axa babane me bahot madad karta hai.
+   - hmm ek ya do fonts use kar ke hamm axe se content ko present kar sakte hai.
+- pay attension to conversion UX
+   - agar aapke UI me form hai toh , form submit hone ka instruction mil jaye aur form submit hone prr , form submit hone ka conformation mil jaye
+   - ye kam micro-instruction se behatareen tarike se kar sakte hai.
+   - eg. form submit hone prr right-sign show ho
+
+- Take feedback
+    - ye bahot jaruri hai , aapki UI/design aapke visitor/customer ko pasand aaye.
+    - aapki audience ko kya axa lagta hai, wo aapke pasand se jaza matter karta hai
+    - esliye aapke UI/Design ke bare me aapke frds ya expert se feedback le , jo bhi feedback aapko mile usse aapki UI improve karne me use kare , jisse aapki UI ke har naye version me user experience behtarin hota jaye
+    - feedback se aapka "original-idea" change na ho bcz aap alag-2 logo ke openion se confuse ho sakte hai, aur aapka idea bhi change ho sakta hai.  
+
+
+
+
+
+### GSAP : for animation
+- open website & go on Get-Started button
+- then open link -> Loading GSAP 
+```js
+<body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+</body>
+```
+- GSAP loading script lagane ke bad hi , script tag use kare , jisse aapka GSAP load ho jaye 
+```js
+<body>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+
+<script>
+   // js
+</script>
+</body>
+```
+
+
