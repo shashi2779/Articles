@@ -29,7 +29,8 @@ min-width
 width
 min-height
 Note : 
-      min-height:100vh parent me toh aap child me height:100% or 50% nhi de sakte bcz aap parent me min-height liye hai , toh child k height me px use kare . height:120px .. etc
+      min-height:100vh parent me toh aap child me height:100% or 50% or other % nhi de sakte bcz aap parent me min-height liye hai , 
+      toh child k height me px use kare . height:120px .. etc
 
 
 padding :0 70px;   
