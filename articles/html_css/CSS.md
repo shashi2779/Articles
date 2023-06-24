@@ -88,7 +88,8 @@ transition: all cubic-bezier(0.19,1,0.22,1) 1s;
 
 
 dispay :inline-block
-   - agar tum element ko width,height de rhe ho aur wo width height kam nhi kar rhi hai,toh tumhara element "display:inline" hai , toh inline element ko kaise treat kiaa jata hai => inline-block de kar ke 
+   - agar tum element ko width,height de rhe ho aur wo width height kam nhi kar rhi hai
+     toh tumhara element "display:inline" hai , toh inline element ko kaise treat kiaa jata hai => inline-block de kar ke 
    - display inline-block krr dene se hamm usse width,height de sakte hai
 
 
