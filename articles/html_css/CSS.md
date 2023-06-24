@@ -44,10 +44,13 @@ margin :0 auto;
    - element ke around space de sakte hai
 
 
+
+<a> tag se hmm kuch likh krr design bhi krr sakte hai
 <a> tag se button bna lo , padding de kar , padding : 14px 32px;
 button me box-shadow de do
 text-decoration : none
    - <a> tag se line hatane k liye
+
 
 
 text-align : center   // imp => font ko bich me manage karne ke liye (lec-43 26:30 min)
@@ -72,6 +75,9 @@ font-family
 font-weight
 opacity :.5  // text ka opacity
 text-shadow 
+
+
+letter-spacing
 
 
 hover
@@ -113,11 +119,31 @@ transform:translate(-50%,-50%)
    background: linear-gradient(to right bottom, color, color)
 }
 
+
+
+overflow : hidden;
+
+
+Z-index
+
+```
+
+### CSS @font-face rule
+- hamane "fonts" nam ka folder banaya , aur usme fonts rakh liye , abb apane website ke liye fonts estemal kar sakte hai  
+```js
+
+@font-face {
+  font-family: myFirstFont;
+  src: url('./fonts/Gilroy-Black.ttf');
+}
+
 ```
 ### fonts
 ```js
 PlayFair Display
 montserrat
+Gilroy
+sans Serif
 
 ```
 
