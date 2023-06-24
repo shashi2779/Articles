@@ -126,6 +126,12 @@ overflow : hidden;
 
 Z-index
 
+
+border:1px solid #f3f3f3;
+border-radius:50%;
+border-bottom:2px solid #f3f3f3;
+   - border-bottom => niche patli si line ke liye
+
 ```
 
 ### CSS @font-face rule
@@ -138,6 +144,7 @@ Z-index
 }
 
 ```
+
 ### fonts
 ```js
 PlayFair Display
