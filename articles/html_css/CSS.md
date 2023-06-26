@@ -193,11 +193,11 @@ sans Serif
 ###### % :
 - relative to parent element
 ![]()
-### three types of styling in css
+## three types of styling in css
 - inline css
 - internal css
 - external css
-### How to set image in background in css
+## How to set image in background in css
 ```
 width:100%;
 height:100%;
@@ -209,17 +209,23 @@ background-position: center/bottom/top;
 
 Img website : "unsplash.com"
 ```
-### postion : absolute 
+## Positioning in css
+- static
+- relative
+- absolute
+- fixed
+- sticky
+#### postion : absolute 
 - static , relative , absolute , fixed , sticky
 - three car hai ek ke bad ek , mann lo bich wali car ko uthaya bridge prr le aya toh niche wali third wali car move krr ke 2nd wali position prr pahoch gayi ,
 - toh third wali car 2nd wali k niche hai , toh third wali dikhegi nhi (bridge ke upar se dekhane me )
 - matlab position : absolute kar ke uss element move kra sakte hai kidhar bhi
-### postion : relative
+#### postion : relative
 - kisi div me koi element hai usko move karana chah rhe toh "position : absolute" kar ke move kra sakte hai uss div ke bahar bhi le ja sakte hai
 - but mai chahta hu move kare wo element but uss div ke bahar nhi , toh "position : relative" karr degen.
 - jisake ander uss element ko rakhana hai use "position: relative" banayegen.
 
-### display property :
+## display property 
 ##### diplay : flex :
 - mana ek div me three element liye wo ek dusare ke niche aa rhe hai , unhe alag-bagal karna hai toh , div ko "display: flex" krr degen
 - ye element ko agal- bagal krr deta hai 
@@ -234,6 +240,27 @@ Img website : "unsplash.com"
 - vertically arrange krr k data hai
    - yha vertically "center" kiye hai    
 
+
+## Display property in css
+- display : block;
+- display : inline;
+- display : inline-block;
+```js
+block :   
+        - full space occupy
+        - line break => new line se new elment start
+        - height , width de sakte hai
+        - div , h1 , h2 , p....
+Inline :
+        - hight , width ka koi effect nhi padhta bcz jitna content ka require hai utna hi consume karega
+        - line break nhi hoti , ek element ke bad dusra element aa sakta hai
+        - ye required space hi lega
+        - span , a , img
+
+inline-block :
+              - same inline 
+              - but add width & height          
+``` 
 
 ### media query
 [how to use media query for multiple device in css](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
@@ -260,28 +287,7 @@ Img website : "unsplash.com"
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}
-```
-
-### Display property in css
-- display : block;
-- display : inline;
-- display : inline-block;
-```js
-block :   
-        - full space occupy
-        - line break => new line se new elment start
-        - height , width de sakte hai
-        - div , h1 , h2 , p....
-Inline :
-        - hight , width ka koi effect nhi padhta bcz jitna content ka require hai utna hi consume karega
-        - line break nhi hoti , ek element ke bad dusra element aa sakta hai
-        - ye required space hi lega
-        - span , a , img
-
-inline-block :
-              - same inline 
-              - but add width & height          
-```  
+``` 
 
 ## How to improve/grow user experience :
 ```js
