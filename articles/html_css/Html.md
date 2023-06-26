@@ -577,3 +577,23 @@ sessionStorage.removeItem("key");
 sessionStorage.clear();
 
 ```
+
+### canvas HTML5
+- jiske madad se hamm graphic draw karr sakte hai webpage prr
+- ye container hota hai
+```js
+
+<canvas>
+
+</canvas>
+
+```
+
+### webGL 
+- web graphic library
+- it is JS API for implementing interactive 2D & 3D vector graphic in the browser.
+
+### web workers
+- background me website ke jo kam chalate hai ya jo script chalati hai , toh wo web-workers ke nam se jane jate hai.
+- jisse pta chalta hai kaun si script kab run huyi toh uske liye HTML me API diaa gya hai, jo API ke base prr hamko pta chal jata hai.
+- website ko load hone me time etc
