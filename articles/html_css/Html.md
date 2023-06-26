@@ -201,9 +201,10 @@ footer
 ``` 
 
 ### Images responsive :
-- first add in html : <meta name="viewport" content="width=device-width, initial-scale=1.0">  [ye rhta hi hai html me]
-- 
+
 ```js
+first add in html : <meta name="viewport" content="width=device-width, initial-scale=1.0">  [ye rhta hi hai html me]
+
 
 <div>
   <p>
