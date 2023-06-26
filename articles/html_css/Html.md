@@ -15,6 +15,21 @@
 
 </html>
 ```
+```js
+<html>
+
+  <head>
+
+    <title>Document</title>
+  </head>
+
+  <body>
+
+
+  </body>
+
+</html>
+```
 
 ```js
 <html>
@@ -453,3 +468,53 @@ or
 </form>
 ```
 
+## Local & session storage :
+#### web storage :
+- browser prr data store karna 
+- with web storage websites store data locally on users browsers
+
+#### cookies :
+- Application data had to be stored in cookies , included in every server request
+
+### object for storing data 
+- local storage
+- session storage
+
+#### local storage :
+- for multiple session with no expiration date & time.
+- ye jo data apne browser me store karega wo multiple session ke liye allowed hoga 
+- aap browser band bhi kar doge toh wah data rahega.
+```js
+
+// Save data to localStorage
+localStorage.setItem(key,value)
+
+
+// Get saved data from localStorage
+let value = localStorage.getItem(key)
+
+
+// Remove all saved data from localStorage
+localStorage.removeItem(key)
+
+```
+
+#### session storage :
+- for single session
+- data is lost when browser is closed
+
+```js
+
+// Save data to sessionStorage
+sessionStorage.setItem("key", "value");
+
+// Get saved data from sessionStorage
+let data = sessionStorage.getItem("key");
+
+// Remove saved data from sessionStorage
+sessionStorage.removeItem("key");
+
+// Remove all saved data from sessionStorage
+sessionStorage.clear();
+
+```
