@@ -105,7 +105,9 @@
 ###### Attribute :
 - HTML attributes are used to describe the charactistic of HTML element in details.
 - yah kisi bhi tag ki property ko describe karta hai ya additional information ke bare me batata hai.
-- eg. <hr color= "red">
+```js
+<hr color= "red">
+```
 
 - Some Tags are here :
 ```js
