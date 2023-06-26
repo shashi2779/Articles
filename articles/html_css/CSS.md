@@ -147,7 +147,7 @@ border-bottom:2px solid #f3f3f3;
 
 ```
 
-### fonts
+## fonts
 ```js
 PlayFair Display
 montserrat
@@ -156,7 +156,7 @@ sans Serif
 
 ```
 
-### css units :
+## css units :
 - units :
    - absolute
    - relative
