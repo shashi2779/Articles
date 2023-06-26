@@ -288,9 +288,7 @@ apne se responsive bna lo [koi bhi technique se]
 ```
 
 #### Table in html
-
-
-![](../articles/img/table.png)
+![](/articles/img/table.png)
 
 ```js
 <table>
