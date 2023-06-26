@@ -174,11 +174,14 @@ target : => target keywords to open a new window
 - External
    - ```js
        here we use the <link> tag inside <head> tag to refrance the css file into our HTML code.
-
+       
+         <link rel="stylesheet" href="style.css">
       ```
 #### html with js
 ```js
 <script></script> tag use karte hai "js" ke code ko html me likhane ke liye.
+
+<script src="myscripts.js"></script>
 ``` 
 ### semantic tag in html
 ```js
