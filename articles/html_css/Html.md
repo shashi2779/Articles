@@ -193,6 +193,62 @@ article
 aside
 footer
 ``` 
+
+### Images responsive :
+- first add in html : <meta name="viewport" content="width=device-width, initial-scale=1.0">  [ye rhta hi hai html me]
+- 
+```js
+
+<div>
+  <p>
+    <img src="img.jpg">
+  </p>
+</div>
+
+
+
+img{
+  width:100%;
+  height:auto;
+}
+
+ya 
+
+apne se responsive bna lo [koi bhi technique se]
+
+```
+## svg animations
+- go to figma
+- then write our "signature"
+- select kar "signature" ko export kar liaa in svg formate 
+- then "viewport" source code nikal liaa [svg path] 
+```js
+
+<div>
+  <svg id="signature">
+   .................
+   .................
+  </svg>
+<div>
+
+
+
+#signature{
+  stroke-dashArray:.....; // dash-2 kam-jada karr sakte hai esee
+  stroke-dashoffset:....; // gayab kar dega signature ko hi 
+  animation: sign 2sec easy-out;
+}
+
+
+
+@keyFrames sign{
+  to{
+    stroke-dashoffset:0;
+  }
+}
+
+```
+
  
 #### List in html
 - order list
