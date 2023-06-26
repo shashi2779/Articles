@@ -92,12 +92,15 @@
 ###### tags :
 - HTML tags are used to hold the HTML element
 - HTML tag start with "<" and end with ">"
-- eg.  <h1>............</h1>
-
+```js
+ <h1>............</h1>
+```
 ###### Element :
 - HTML element holds the content
 - whatever , written within a HTML tag are HTML elements.
-- eg. <h1>all are element</h1>
+```js
+<h1>all are element</h1>
+```
 
 ###### Attribute :
 - HTML attributes are used to describe the charactistic of HTML element in details.
