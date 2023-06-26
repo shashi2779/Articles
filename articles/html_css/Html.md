@@ -225,7 +225,7 @@ apne se responsive bna lo [koi bhi technique se]
 
 ```
 ## svg animations
-- go to figma
+- go to figma/adobeXD
 - then write our "signature"
 - select kar "signature" ko export kar liaa in svg formate 
 - then "viewport" source code nikal liaa [svg path] 
