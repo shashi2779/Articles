@@ -184,7 +184,8 @@ target : => target keywords to open a new window
       ```
 #### html with js
 ```js
-<script></script> tag use karte hai "js" ke code ko html me likhane ke liye.
+we use the <script> tag inside <head> tag to refrance 
+the js file into our HTML code.
 
 <script src="myscripts.js"></script>
 ``` 
