@@ -31,8 +31,64 @@
 
 </html>
 ```
+### Body Tag vs Title Tag vs Head Tag vs Meta tag
+```js
+<body> tag
+- jo bhi body tag ke ander likha hoga wo sab "display" ho jata hai browser ke main window parr
+- <p> ,<h1> , <img> , <audio> ,<video> ,<div> ...etc
 
-- Tags
+
+
+<head> tag
+- "extra information related to page" contain karna head tag kahlata hai.
+- <link> , <meta> ,<style> , <script>
+
+
+
+<title>excellent</title> tag
+- browser ke upar jo tab hota hai usme display ho jana 
+- Browser tab par hame project ka nam show karna ho ya website ka nam
+
+
+
+<meta> tag
+- <meta charset="UTF-8">
+     - mainly use in SEO (Search engine optimization )
+     - SEO => website traffic ko badhane ka tarika me use karna & others
+     - site ko rank karne ke liye
+
+- <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+     - ye responsive design ke liye
+     
+-  <meta name="keywords" content="HTML, CSS, JavaScript , html-toturials , web development">     
+      - ye keywords jab ko search kare toh meri website rank karr pahle dikhe
+
+- <meta ......    content="ie=edge">  
+      - ye internate explorer jo abhi estemal krr rhe
+
+- <meta name="robots"    content="NoIndex,NoFollow">
+      - aap chahte hai meri website search engine me na aaye  
+      
+- <meta name="robots"    content="Index,Follow">
+      - aapki website ko search engine me rank milegi      
+```
+### Tags vs Attributes vs element
+###### tags :
+- HTML tags are used to hold the HTML element
+- HTML tag start with "<" and end with ">"
+- eg.  <h1>............</h1>
+
+###### Element :
+- HTML element holds the content
+- whatever , written within a HTML tag are HTML elements.
+- eg. <h1>all are element</h1>
+
+###### Attribute :
+- HTML attributes are used to describe the charactistic of HTML element in details.
+- yah kisi bhi tag ki property ko describe karta hai ya additional information ke bare me batata hai.
+- eg. <hr color= "red">
+
+- Some Tags are here :
 ```js
 
 <h1> tag to <h6> tag hota hai
@@ -49,7 +105,8 @@
 <a href=" link of youtube ">youtube</a>
 
 ```
-#### id vs class
+
+### id vs class
 - class : 
   - A Class name can be used by multiple HTML elements
   - kisi bhi element ko same class nam de sakte hai
@@ -75,17 +132,9 @@
 <ins> - displays as added text
 
 ```
-### head vs body tag :
-```js
-<body> tag
-- define the body of html document.
-- <p> , <img> , <audio> ,<video> ,<div> ...etc
 
-<head> tag
-- provide info about the document
-- <link> , <meta> ,<style> , <script> 
-```
-### Link :
+### Link or Anchors tag :
+- it is used to create hyperlink to a resource i.e webpage, pdf, text file
 ```js
 <a> tag
 
@@ -96,7 +145,8 @@
 
 href="url" me url dete hai
 
-target -> batata hai same window me open hogi ya different window me
+target : => target keywords to open a new window
+
 ````
 ### how many ways we can specify css
 - inline
@@ -253,11 +303,24 @@ youtube ka video lagana hai apane html me
 ```
 
 ### form tag [most imp iterviews question] :
+- An HTML form is used to collect user input.. the user input is most ofen 
+  send to a server for processing.
 [learn form tag with input "checkbox"](https://www.w3schools.com/html/html_forms.asp)
 ```js
 <form>
+   <label for="fname">First Name:</label><br>
+   <input type="text">
+</form>
 
 
+or
+
+
+<form>
+   <div>
+     First Name:
+     <input type="text">
+   </div>
 </form>
 ```
 ### input tag
@@ -276,6 +339,8 @@ youtube ka video lagana hai apane html me
 <input type="file" >   Upload img
 
 <input type="reset" >   form reset
+
+<input type="date">     set date,month,year
 
 ```
 ```js
