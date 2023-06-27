@@ -367,6 +367,7 @@ box-sizing:border-box;
 ```
 
 ## pseudo selectors in css
+[link](https://www.youtube.com/watch?v=x0prF61CpHY&t=42s)
 - pseudo class selector
 - [pseudo class selector](https://www.w3schools.com/css/css_pseudo_classes.asp)
      - single colon se suru hote hai 
