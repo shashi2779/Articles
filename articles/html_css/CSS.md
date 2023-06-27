@@ -57,6 +57,10 @@ text-decoration : none
 text-align : center   // imp => font ko bich me manage karne ke liye (lec-43 26:30 min)
 font-weight  // font-weight sath me de sakte hai axa lagne ke liye
 font-size
+line-height  // distance in between the lines of text 
+
+
+overflow:hidden;
 
 
 box-shadow :
@@ -337,6 +341,14 @@ margin:
 -------
 element ke around space provide karta hai
 ```
+## specificity in css
+- more specific rule will get more value
+- kitna jada details me bataya gya hai uss chij ke bare me toh usko bolegen hmm "more specific.
+[specificity in css](https://www.youtube.com/watch?v=m5H0Ge4y614)
+
+## inheritance in css
+[inheritance in css](https://www.youtube.com/watch?v=9vjYg2YNXaM)
+
 ## Box-sizing,default styling
 ```js
 box-sizing:content-box;
