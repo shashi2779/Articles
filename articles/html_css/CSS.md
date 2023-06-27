@@ -399,6 +399,11 @@ box-sizing:border-box;
                  * Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quisquam vitae expedita, 
                    cumque et animi quis aspernatur architecto accusamus autem voluptatem nesciunt, in aliquam.*
         ```
+## shadow effects
+[shadow effects](https://www.w3schools.com/css/css3_shadows.asp)
+- box-shadow
+- text-shadow
+
 
 ### media query
 [how to use media query for multiple device in css](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
@@ -470,9 +475,42 @@ box-sizing:border-box;
     - esliye aapke UI/Design ke bare me aapke frds ya expert se feedback le , jo bhi feedback aapko mile usse aapki UI improve karne me use kare , jisse aapki UI ke har naye version me user experience behtarin hota jaye
     - feedback se aapka "original-idea" change na ho bcz aap alag-2 logo ke openion se confuse ho sakte hai, aur aapka idea bhi change ho sakta hai.  
 
+# advance topic
+## Gradients
+[gradients color](https://www.w3schools.com/css/css3_gradients.asp)
 
+## css functions
+[css fun'n](https://www.w3schools.com/cssref/css_functions.php)
 
+## transform property
+[transform property](https://www.w3schools.com/cssref/css3_pr_transform.php)
 
+## transitions
+[transitions](https://www.w3schools.com/css/css3_transitions.asp)
+
+## Animations
+[Animations](https://www.w3schools.com/css/css3_animations.asp)
+
+## CSS Grid Layout Module
+[Grid Layout](https://www.w3schools.com/css/css_grid.asp)
+
+## CSS Image Sprites
+[CSS Image Sprites](https://www.w3schools.com/css/css_image_sprites.asp)
+
+## css variable
+[css variable](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+
+## container queries
+[container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_container_queries)
+
+## subgrid
+[subgrid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid)
+
+## masking and blending in css
+[masking](https://www.w3schools.com/css/css3_masking.asp)
+
+[blending](https://www.w3schools.com/cssref/pr_background-blend-mode.php)
+ 
 
 ### GSAP : for animation
 - open website & go on Get-Started button
