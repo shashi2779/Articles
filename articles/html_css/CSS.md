@@ -365,6 +365,40 @@ box-sizing:border-box;
 - element k width & height me padding & margin dene prr bhi usi width and height me margin and padding le lega 
 - extra nhi lega
 ```
+
+## pseudo selectors in css
+- pseudo class selector
+[pseudo class selector](https://www.w3schools.com/css/css_pseudo_classes.asp)
+     - single colon se suru hote hai 
+     - :link , :visited
+     - :hover , :active
+     - :focus
+     - :first-child
+     - :last-child
+     - :nth-child(n)
+       
+- pseudo element selector
+[pseudo element selector](https://www.w3schools.com/css/css_pseudo_elements.asp)
+     - double colon se suru hote hai
+     - ::first-letter
+     - ::first-line
+     - ::before
+     - ::after
+        ```js
+           p::before{
+              content: "*"
+           }
+
+           p::after{
+             content:"*"
+           }
+
+
+           ans:
+                 * Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quisquam vitae expedita, 
+                   cumque et animi quis aspernatur architecto accusamus autem voluptatem nesciunt, in aliquam.*
+        ```
+
 ### media query
 [how to use media query for multiple device in css](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
