@@ -197,6 +197,50 @@ sans Serif
 - inline css
 - internal css
 - external css
+
+## CSS Selectors :
+- css selectors are used to find the element whose property will be set.
+- jiski property set karna chahte hai usko select kar lo
+###### 4 types of css selectors
+- element selectors
+- id selectors
+- class selectors
+- grouping selectors
+```js
+
+element selectors
+---------------------
+p{
+   color:red;
+}
+
+
+
+id selectors
+---------------------
+#logo{
+   color:red;
+}
+
+
+
+
+class selectors
+---------------------
+.nav-ele{
+   color:red;
+}
+
+
+
+
+grouping selectors
+-----------------------
+footer,p{
+   color:red;
+}
+
+```
 ## How to set image in background in css
 ```
 width:100%;
@@ -210,7 +254,7 @@ background-position: center/bottom/top;
 Img website : "unsplash.com"
 ```
 ## Positioning in css
-- static
+- static  - bydefault
 - relative
 - absolute
 - fixed
@@ -225,7 +269,21 @@ Img website : "unsplash.com"
 - but mai chahta hu move kare wo element but uss div ke bahar nhi , toh "position : relative" karr degen.
 - jisake ander uss element ko rakhana hai use "position: relative" banayegen.
 
-## display property 
+## float/clear in css
+[float/clear in css](https://www.w3schools.com/css/css_float_clear.asp)
+```js
+margin:auto;   // left-right se center
+
+
+
+float:left;
+
+
+
+clear:left;
+
+```
+## display 
 ##### diplay : flex :
 - mana ek div me three element liye wo ek dusare ke niche aa rhe hai , unhe alag-bagal karna hai toh , div ko "display: flex" krr degen
 - ye element ko agal- bagal krr deta hai 
@@ -262,6 +320,39 @@ inline-block :
               - but add width & height          
 ``` 
 
+## css box model
+[css box model](https://www.w3schools.com/css/css_boxmodel.asp)
+- content area
+- padding
+- border
+- margin
+```js
+padding:
+-------- 
+- content ke around space provide karta hai
+
+
+
+margin:
+-------
+element ke around space provide karta hai
+```
+## Box-sizing,default styling
+```js
+box-sizing:content-box;
+------------------------
+- height + width + padding + margin
+- element k width & height me padding & margin dene se size badh jati hai
+- extra le rha [element k width and height me margin and padding bhi add ho ja rha ]
+
+
+
+box-sizing:border-box;
+------------------------
+- height + width + padding + margin
+- element k width & height me padding & margin dene prr bhi usi width and height me margin and padding le lega 
+- extra nhi lega
+```
 ### media query
 [how to use media query for multiple device in css](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
