@@ -368,7 +368,7 @@ box-sizing:border-box;
 
 ## pseudo selectors in css
 - pseudo class selector
-[pseudo class selector](https://www.w3schools.com/css/css_pseudo_classes.asp)
+- [pseudo class selector](https://www.w3schools.com/css/css_pseudo_classes.asp)
      - single colon se suru hote hai 
      - :link , :visited
      - :hover , :active
@@ -378,7 +378,7 @@ box-sizing:border-box;
      - :nth-child(n)
        
 - pseudo element selector
-[pseudo element selector](https://www.w3schools.com/css/css_pseudo_elements.asp)
+- [pseudo element selector](https://www.w3schools.com/css/css_pseudo_elements.asp)
      - double colon se suru hote hai
      - ::first-letter
      - ::first-line
