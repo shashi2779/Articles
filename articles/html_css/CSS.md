@@ -512,7 +512,7 @@ box-sizing:border-box;
 [blending](https://www.w3schools.com/cssref/pr_background-blend-mode.php)
  
 
-### GSAP : for animation
+## GSAP : for animation
 - open website & go on Get-Started button
 - then open link -> Loading GSAP 
 ```js
