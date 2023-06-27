@@ -475,7 +475,7 @@ box-sizing:border-box;
     - esliye aapke UI/Design ke bare me aapke frds ya expert se feedback le , jo bhi feedback aapko mile usse aapki UI improve karne me use kare , jisse aapki UI ke har naye version me user experience behtarin hota jaye
     - feedback se aapka "original-idea" change na ho bcz aap alag-2 logo ke openion se confuse ho sakte hai, aur aapka idea bhi change ho sakta hai.  
 
-# advance topic
+# Advance Topic
 ## Gradients
 [gradients color](https://www.w3schools.com/css/css3_gradients.asp)
 
