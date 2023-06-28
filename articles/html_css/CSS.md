@@ -60,6 +60,10 @@ font-size
 line-height  // distance in between the lines of text 
 
 
+
+list-style-type: none;   //  remove bullet points of list 
+
+
 overflow:hidden;
 
 
