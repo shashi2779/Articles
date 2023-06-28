@@ -50,6 +50,10 @@ gap :2px;     // gap between element
 
 
 
+cursor:pointer; 
+
+
+
 <a> tag se hmm kuch likh krr design bhi krr sakte hai
 <a> tag se button bna lo , padding de kar , padding : 14px 32px;
 button me box-shadow de do
