@@ -193,3 +193,306 @@ output:
 [1,2,3,10,20,30]
 
 ```
+### set object , Includes() , some() , reduce() , find() , findIndex() , concat()
+[](https://www.youtube.com/watch?v=VZcwNZ8kNLc&list=PL_HlKez9XCSObvbpDXzmorfjnCrCz7bQZ&index=3)
+```js
+1 => check If user with such name exists
+2 => adding element to the array
+3 => remove dublicates element in the array
+4 => concatenating the array
+```
+- check If user with such name exists
+```js
+
+
+let users = [
+    {
+        id: 1,
+        name: "shashikant",
+        isActive: true,
+        age: 25
+
+    },
+    {
+        id: 2,
+        name: "vikash",
+        isActive: true,
+        age: 22
+
+    },
+    {
+        id: 3,
+        name: "dhoni",
+        isActive: true,
+        age: 41
+
+    },
+    {
+        id: 4,
+        name: "raina",
+        isActive: true,
+        age: 36
+
+    },
+    {
+        id: 5,
+        name: "surya",
+        isActive: false,
+        age: 33
+
+    },
+    {
+        id: 6,
+        name: "samsong",
+        isActive: false,
+        age: 34
+
+    }
+]
+
+
+
+// 1- check If user with such name exists
+// if user is exit then show "true" val
+
+// solution - 1 : 
+
+const isNameExit = (name, users) => {
+    let exist = false;
+
+    for (let i = 0; i < users.length; i++) {
+        if (users[i].name === name) {
+            exist = true;
+        }
+    }
+    return exist;
+}
+
+// esko console prr run karaye 
+isNameExit('shashikant',users)  // true
+
+
+
+// solution - 2 :
+
+const isNameExit = (name, users) => {
+   
+   const user =  users.find((user)=> user.name === name)
+
+   return user;
+}
+
+// esko console prr run karaye 
+isNameExit('shashikant',users)  //  pura obj aa jayega sahshikant  ka
+isNameExit('xaxi',users)  //  undefined
+
+--------------------------------------------------------------------------------------
+
+const isNameExit = (name, users) => {
+   
+   const user =  users.find((user)=> user.name === name)
+
+   return Boolean(user)
+}
+
+// esko console prr run karaye 
+isNameExit('shashikant',users)  //  true
+isNameExit('xaxi',users)  //  false
+
+
+
+
+
+// solution - 3 :
+
+const isNameExit = (name, users) => {
+   
+    const index =  users.findIndex((user)=> user.name === name)
+ 
+    return index;
+ }
+ 
+ // esko console prr run karaye 
+ isNameExit('shashikant',users)  // 0
+ isNameExit('xaxi',users)  //  -1
+
+
+------------------------------------------------------------------
+
+const isNameExit = (name, users) => {
+   
+    const index =  users.findIndex((user)=> user.name === name)
+ 
+    return index >= 0;
+ }
+ 
+ // esko console prr run karaye 
+ isNameExit('shashikant',users)  // true
+ isNameExit('xaxi',users)  //  false
+
+
+
+
+
+// solution - 4 :
+
+ const isNameExit = (name, users) => {
+   
+    const user =  users.some((user)=> user.name === name)
+ 
+    return user;
+ }
+ 
+ // esko console prr run karaye 
+ isNameExit('shashikant',users)  // true
+ isNameExit('xaxi',users)  //  false
+
+
+```
+
+- Adding element to the Array
+```js
+// solution -1 :
+
+let arr = [1,2]
+
+const append = (arr,ele) =>{
+    arr.push(ele)
+    return arr;
+}
+
+console.log(append(arr,3));
+console.log(arr)     // original array ko bhi change krr diaa
+
+
+
+// Note : 
+//  new element dal rhe toh "new array" bane , original array ko change/modify na kare
+// sprade operator use karegen
+// solution -2 
+
+
+let arr = [1,2]
+
+const append = (arr,ele) =>{
+    return [...arr,ele]
+}
+
+console.log(append(arr,3));
+console.log(arr)  // original array change nhi hua hai bcz of sprade operator
+
+
+```
+- Remove Dublicates Element in the Array
+```js
+// Remove Dublicates Element in the Array
+
+// solution - 1 :
+
+// const arr = [1, 2, 3, 3, 4, 4, 5]
+
+// function uniqueArray() {
+//     let uniqueElements = []
+
+//     arr.forEach((ele) => {
+//         if (!uniqueElements.includes(ele)) {
+//             uniqueElements.push(ele)
+//         }
+//     })
+
+//     return uniqueElements;
+// }
+
+// console.log(uniqueArray(arr))
+
+
+// output :
+// =========
+// [1 ,2 ,3 ,4 ,5]
+
+
+
+
+
+// solution - 2
+// set obj :
+//the set obj is a built-in js datastr that allows you to store unique values of any type.
+// original arr ko change nhi karega 
+const arr = [1, 2, 3, 3, 4, 4, 5]
+
+function uniqueArray(arr) {
+    return [...new Set(arr)]
+}
+
+console.log(uniqueArray(arr))
+console.log(arr)  // original arr ko change nhi karega   
+
+
+
+output :
+==========
+[1 ,2 ,3 ,4 ,5]
+[1, 2, 3, 3, 4, 4, 5]
+
+
+
+// solution - 3 :
+// accumulator (acc) - jisme value jayegin
+
+const arr = [1, 2, 3, 3, 4, 4, 5]
+
+function uniqueArray(arr) {
+    return arr.reduce((acc, ele) => {
+        //agar hai toh return karwa do (acc ko )  [1,2,3] aaya agali bar 3 aaya array me hai toh acc return ho jayega
+        //agar nhi hai toh "ek new arr" banaya aur usme ele ki value dal di
+        return acc.includes(ele) ? acc : [...acc, ele]
+    }, [])
+}
+
+console.log(uniqueArray(arr))
+
+```
+- Concatenating  the Array
+```js
+// solution - 1 :
+// Concatenating  the Array
+
+const mergeArray = (arr1,arr2) =>{
+ arr1.push(...arr2)
+ return arr1;
+}
+
+const arr1 = [1]
+const arr2 = [2,3]
+const result = mergeArray(arr1,arr2)
+console.log(result,arr1,arr2)   // [1,2,3],[1,2,3],[2.3]
+
+
+
+// solution - 2 :
+// merge bhi ho jaye , mera arr1 modify bhi na ho 
+
+const mergeArray = (arr1,arr2) =>{
+      return [...arr1,arr2]
+}
+   
+   const arr1 = [1]
+   const arr2 = [2,3]
+   const result = mergeArray(arr1,arr2)
+   console.log(result,arr1,arr2)   // [1,Array(2)->2,3],[1],[,2,3]
+
+
+
+// solution - 3 : 
+
+const mergeArray = (arr1,arr2) =>{
+    return arr1.concat(...arr2)
+}
+ 
+ const arr1 = [1]
+ const arr2 = [2,3]
+ const result = mergeArray(arr1,arr2)
+ console.log(result,arr1,arr2)    // [1,2,3],[1],[2,3]
+
+
+```
