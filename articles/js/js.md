@@ -83,7 +83,7 @@ console.log(names)
 
 let names = []
 
-users.foreach((user)=>{
+users.forEach((user)=>{
    names.push(user.name)
 })
 
