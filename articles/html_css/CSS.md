@@ -429,12 +429,12 @@ https://www.youtube.com/watch?v=xBSlwwitD5U
 
 <body>
 
-<div class="container">
-   <div class="items">dabba 1</div>
-   <div class="items">dabba 2</div>
-   <div class="items">dabba 3</div>
-   <div class="items">dabba 4</div>
-</div>
+   <div class="container">
+      <div class="items">dabba 1</div>
+      <div class="items">dabba 2</div>
+      <div class="items">dabba 3</div>
+      <div class="items">dabba 4</div>
+   </div>
 
 </body>
 
@@ -442,21 +442,22 @@ https://www.youtube.com/watch?v=xBSlwwitD5U
 
 
 <style>
-   .container{
-      display: grid;
-      // grid ko 3 columns me divide krr liaa
-      grid-template-columns: 200px 200px 200px;
-      // mana esko teen bar nhi likhna toh 
-      //grid-template-columns: repeat(3,200px);
-      // row ke liye
-      //grid-template-rows: 200px 200px 200px;
-      grid-gap: 20px;
-   }
-   .items{
-      background-color: green;
-      border: 3px solid red;
-      border-radius: 3px;
-   }
+      .container{
+         display: grid;
+         // grid ko 3 columns me divide krr liaa
+         grid-template-columns: 200px 200px 200px;
+         // mana esko teen bar nhi likhna toh 
+         //grid-template-columns: repeat(3,200px);
+         // row ke liye
+         //grid-template-rows: 200px 200px 200px;
+         grid-gap: 20px;
+      }
+      .items{
+         background-color: green;
+         border: 3px solid red;
+         border-radius: 3px;
+      }
+
 </style>
 
 ```
