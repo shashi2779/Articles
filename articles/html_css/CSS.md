@@ -416,6 +416,50 @@ box-sizing:border-box;
 - box-shadow
 - text-shadow
 
+## CSS Grid layout :
+- flexbox vs grid layout
+    - flex box is one dimensional 
+    - css grid is two diamensional
+
+- search css grid
+[link](https://www.youtube.com/watch?v=xBSlwwitD5U)
+```js
+https://www.youtube.com/watch?v=xBSlwwitD5U
+
+
+<body>
+
+<div class="container">
+   <div class="items">dabba 1</div>
+   <div class="items">dabba 2</div>
+   <div class="items">dabba 3</div>
+   <div class="items">dabba 4</div>
+</div>
+
+</body>
+
+
+
+
+<style>
+   .container{
+      display: grid;
+      // grid ko 3 columns me divide krr liaa
+      grid-template-columns: 200px 200px 200px;
+      // mana esko teen bar nhi likhna toh 
+      //grid-template-columns: repeat(3,200px);
+      // row ke liye
+      //grid-template-rows: 200px 200px 200px;
+      grid-gap: 20px;
+   }
+   .items{
+      background-color: green;
+      border: 3px solid red;
+      border-radius: 3px;
+   }
+</style>
+
+```
 
 ### media query
 [how to use media query for multiple device in css](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
