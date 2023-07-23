@@ -178,11 +178,19 @@ sans Serif
 - eg. laptop
 ```js
 body ke ander ek div banaya
-width :30%;
-height : 30%;
+<body>
+<div class="main-part"></div>
+</body>
 
-toh yha squre nhi banega yha rectangle banega bcz 
-Landscape mod me width jada hoti hai , height kam hoti hai ess liye
+#main-part{
+   width :30%;
+   height : 30%;
+}
+
+toh yha "square" nhi banega yha rectangle banega screen prr bcz 
+Landscape mode me width jada hoti hai , height kam hoti hai 
+ess liye "rectangle" bna 
+
 
 ```
 
