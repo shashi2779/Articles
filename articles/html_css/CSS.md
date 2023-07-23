@@ -492,9 +492,11 @@ clear:left;
 ##### justify content : center 
 - horizontal arrange krr k data hai
    - yha horizontal "center" kiye hai
+   - x-axis prr arrange/manage karte hai
 ##### align item : center
 - vertically arrange krr k data hai
    - yha vertically "center" kiye hai    
+   - y-axis prr arrange/manage karte hai
 
 
 ## Display property in css
