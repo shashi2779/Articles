@@ -176,6 +176,15 @@ sans Serif
 #### Landscape :
 - means width jada ho , height kam ho
 - eg. laptop
+```js
+body ke ander ek div banaya
+width :30%;
+height : 30%;
+
+toh yha squre nhi banega yha rectangle banega bcz 
+Landscape mod me width jada hoti hai , height kam hoti hai ess liye
+
+```
 
 #### Portrait :
 - means hight jada ho , width kam ho
