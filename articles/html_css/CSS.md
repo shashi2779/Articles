@@ -253,9 +253,10 @@ vmin :
 
 ```
 ###### rem : 
-- relative to HTML element
+- relative to HTML element ✅
 - bydefault HTML element value = 16px hoti hai
 - easily scalable in responsiveness
+- rem => me "r" jo hai "root" k liye ... it means puri screen ke size ke according
 ```js
 
 1rem = 1*16 = 16px
@@ -323,7 +324,8 @@ Note :
   apne parent ko "font-size" de dunga aur child me "em" likh legen
 
 
-- * teeno element ko alag change karne se axa hai parenet me font-size likh krr de do , aur elemet me font-size "em" se handle krr lo *
+- * teeno element ko alag change karne se axa hai parenet me font-size likh krr de do , aur elemet me font-size "em" se handle krr lo * 
+- [25min prr video me]
 
   #parent{
    background-color:#dadada;
