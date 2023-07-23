@@ -707,6 +707,7 @@ flex-box: 7em;  // it depends on parent element
 ```
 - Mobile first approach
    - mtlb website latop prr bna rhe prr ye sochte rho ki ye mobsite mob prr kaise dikhegi
+   - mob prr kaise lagegi usko pahle le krr chalna hai
 - Flexible Images and Media 
 
 ## How to improve/grow user experience :
