@@ -210,11 +210,48 @@ ess liye "rectangle" bna
 
 ##### Relative:
 - easily scable in responsive
-- rem , em , vh ,vw ,% , Vmax , Vmin
+- rem , em , vh ,vw ,% , vmax , vmin
+
 ##### note :
 - px, em , rem  are primarily used for font sizing.
 - % ,vw , vh are mostly used for margin , padding , spacing , and width/height
 - use toh hmm kisi ka kahi bhi karr sakte hai prr mostely use jha hota hai wo bataya hai
+
+###### vmax :
+- vmax -> viewport maximum
+  
+   [video link](https://www.youtube.com/watch?v=HG10yrq1pbk&list=LL&index=7 )
+- 18 min se dekhe
+```js
+font-size :7vw;
+
+drawback of vw :
+-----------------
+- agar hmm inspect krr ke chhota karte ja rhe toh "bahot chhota" ho jayega dikhega tak nhi
+
+
+font-size :7vmax;
+
+vmax me :
+----------
+- Landscape mode me width jada hogi , height kam then,
+- agar hmm "inspect" krr ke chhota karte ja rhe hai , toh ek samay ye hoga ki height jada ho jayegi width se landscape mode m
+- toh jaise hi height jada hogi width se toh 
+  ye apni property width me na lete huye height me lene lagega
+-  toh height ko kam-besi karegen toh change hota dikhega
+
+```
+###### vmin :
+- vmin -> viewport minimum
+```js
+font-size : 7vmin;
+
+vmin :
+-------
+- jo minium hoga width,height me usi ke hisab se change hota dikhe
+- suru me fark na dikhe bcz width jada hogi , bad me "width chhota hoga height bda" toh phir fark dikhega ...width chhota ho gya  
+
+```
 ###### rem : 
 - relative to HTML element
 - bydefault HTML element value = 16px hoti hai
@@ -246,6 +283,67 @@ agar parent div ka koi value nhi hai toh wo HTML div/element ke pas jayega by de
 toh child ki value 
 1em = 1*16px = 16px ho jayegi
 2rem = 2*16px = 32px
+
+=============================================================
+
+<div id="parent">
+    <h1>hello ! mr. shashi</h1>
+    <h2>how are you</h2>
+    <h3>what are you doing</h3>
+</div>
+
+
+
+#parent{
+   background-color:#dadada;
+   width:40%;
+}
+
+h1{
+ font-size:50px;
+}
+
+h2{
+ font-size:40px;
+}
+
+h3{
+ font-size:50px;
+}
+
+
+Note :
+========
+- mana teeno me kuch font-size change karna hai toh teeno me ja krr change karehen ,
+  ye galat approach hoga , 
+
+- jab @media-query likhegen toh bahot dikkat aayegi (responsive karte wakt)
+  bahot bar same kam karna padega , toh esse bachane ke liye ek property hai "em"
+
+  apne parent ko "font-size" de dunga aur child me "em" likh legen
+
+
+  #parent{
+   background-color:#dadada;
+   width:40%;
+   //yha 1rem = 30px hai
+   font-size:30px;
+   // agar hmm chahte hai ek "em" ki value 40px karna toh
+   font-size:40px;
+}
+
+h1{
+ font-size: 2em;
+}
+
+h2{
+ font-size: 1em;
+}
+
+h3{
+ font-size: 1.5em;
+}
+
 
 ```
 ![]()
