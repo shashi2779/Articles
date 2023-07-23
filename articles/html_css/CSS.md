@@ -323,6 +323,8 @@ Note :
   apne parent ko "font-size" de dunga aur child me "em" likh legen
 
 
+- * teeno element ko alag change karne se axa hai parenet me font-size likh krr de do , aur elemet me font-size "em" se handle krr lo *
+
   #parent{
    background-color:#dadada;
    width:40%;
