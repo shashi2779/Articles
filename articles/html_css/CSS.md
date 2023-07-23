@@ -668,8 +668,8 @@ https://www.youtube.com/watch?v=xBSlwwitD5U
 [how to use media query for multiple device in css](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
 #### portrait vs landscape
-- portrait => sidha tablet
-- landscape => ghuma diaa  
+- portrait => height jada ho , width kam .... eg. mobile
+- landscape => width jada ho , height kam  ... eg. laptop
 [tablet portrait vs landscape](https://www.scientiamobile.com/smartphone-vs-tablet-orientation-whos-using-what/)
 
 - Imp :
