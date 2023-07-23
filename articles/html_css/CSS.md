@@ -670,7 +670,8 @@ https://www.youtube.com/watch?v=xBSlwwitD5U
 #### portrait vs landscape
 - portrait => height jada ho , width kam .... eg. mobile
 - landscape => width jada ho , height kam  ... eg. laptop
-[tablet portrait vs landscape](https://www.scientiamobile.com/smartphone-vs-tablet-orientation-whos-using-what/)
+
+  [tablet portrait vs landscape](https://www.scientiamobile.com/smartphone-vs-tablet-orientation-whos-using-what/)
 
 - Imp :
 [watch responsive](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery_breakpoints)
