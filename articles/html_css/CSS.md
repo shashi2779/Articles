@@ -667,6 +667,8 @@ https://www.youtube.com/watch?v=xBSlwwitD5U
 ### media query
 [how to use media query for multiple device in css](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
+- @media (max-width:600px) { ... }
+
 #### portrait vs landscape
 - portrait => height jada ho , width kam .... eg. mobile
 - landscape => width jada ho , height kam  ... eg. laptop
@@ -691,6 +693,21 @@ https://www.youtube.com/watch?v=xBSlwwitD5U
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}
 ``` 
+
+### key point to keep in mind to make website responsive
+- CSS Flexbox
+- CSS Units
+- Responsive Typography
+```js
+flex-box : 100px;  ❌ wrong approach  // it can not change/scalable
+
+flex-box: 7vw;     ✔  // relative to viewport
+flex-box: 7rem;  // relative to html element
+flex-box: 7em;  // it depends on parent element
+```
+- Mobile first approach
+   - mtlb website latop prr bna rhe prr ye sochte rho ki ye mobsite mob prr kaise dikhegi
+- Flexible Images and Media 
 
 ## How to improve/grow user experience :
 ```js
