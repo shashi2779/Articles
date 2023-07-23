@@ -699,11 +699,11 @@ https://www.youtube.com/watch?v=xBSlwwitD5U
 - CSS Units
 - Responsive Typography
 ```js
-flex-box : 100px;  ❌ wrong approach  // it can not change/scalable
+flex-size : 100px;  ❌ wrong approach  // it can not change/scalable
 
-flex-box: 7vw;     ✔  // relative to viewport
-flex-box: 7rem;  // relative to html element
-flex-box: 7em;  // it depends on parent element
+flex-size: 7vw;     ✔  // relative to viewport
+flex-size: 7rem;  // relative to html element
+flex-size: 7em;  // it depends on parent element
 ```
 - Mobile first approach
    - mtlb website latop prr bna rhe prr ye sochte rho ki ye mobsite mob prr kaise dikhegi
