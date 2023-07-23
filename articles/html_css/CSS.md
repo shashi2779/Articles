@@ -172,6 +172,15 @@ sans Serif
 
 ```
 
+## screen 
+#### Landscape :
+- means width jada ho , height kam ho
+- eg. laptop
+
+#### Portrait :
+- means hight jada ho , width kam ho
+- eg. phone
+
 ## css units :
 - units :
    - absolute
@@ -180,11 +189,11 @@ sans Serif
 ##### absolute :
 - not responsive
 - not scalable
-- eg . px
+- eg . px , fixed hote hai 
 
 ##### Relative:
 - easily scable in responsive
-- rem , em , vh ,vw ,%
+- rem , em , vh ,vw ,% , Vmax , Vmin
 ##### note :
 - px, em , rem  are primarily used for font sizing.
 - % ,vw , vh are mostly used for margin , padding , spacing , and width/height
@@ -192,22 +201,76 @@ sans Serif
 ###### rem : 
 - relative to HTML element
 - bydefault HTML element value = 16px hoti hai
+- easily scalable in responsiveness
+```js
 
+1rem = 1*16 = 16px
+2rem = 2*16 = 32px
+
+```
 ![]()
 ###### em :
 - it depends on parent element
+```js
+if parent div is 10px , then child div
+1em = 1*10px = 10px
+2rem = 2*10px = 20px
+
+====================================
+
+In htlm div/element , two div are present
+1- parent div 
+2- child div
+
+agar parent div 10px ka hai toh child bhi
+1em = 1* 10 = 10px ho jata hai 
+
+agar parent div ka koi value nhi hai toh wo HTML div/element ke pas jayega by default 16px hoti hai 
+toh child ki value 
+1em = 1*16px = 16px ho jayegi
+2rem = 2*16px = 32px
+
+```
 ![]()
 ###### vh :
 - relative to viewsport height
 - viewsport -> jitna screen prr dikh rha hai
 - 100vh -> 100% of screen
 - 70vh -> 70% of screen
+```js
+20vh => 20% of viewport ki height
+
+```
 ![]()
 ###### vw :
 - relative to viewsport width
+```js
+10vw => 10% of viewport ki width
+
+```
 ![]()
 ###### % :
 - relative to parent element
+```js
+agar parent div 10px ka hai , toh 10% child div kitna hoga
+10% of 10px 
+it means 10px ka 10%
+
+===============================================
+
+
+html element 16px by default
+parent div = 20% => div2
+child div = 10%  => div1 
+
+div2(child) ------------> HTML element [parent]
+20% of 16px
+
+
+div1 =>
+[20% of 16px] of 10%
+
+```
 ![]()
 ## three types of styling in css
 - inline css
