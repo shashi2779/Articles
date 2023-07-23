@@ -493,11 +493,29 @@ clear:left;
 - horizontal arrange krr k data hai
    - yha horizontal "center" kiye hai
    - x-axis prr arrange/manage karte hai
-##### align item : center
+##### align item : center;
 - vertically arrange krr k data hai
    - yha vertically "center" kiye hai    
    - y-axis prr arrange/manage karte hai
 
+##### flex-wrap : wrap;
+```js
+<div class="parent">
+   <div class="child1">box1</div>
+   <div class="child2">box2</div>
+</div>
+
+
+note :
+-------
+- parent dev ke ander do div hai , child1 & child2 unko "box" bna liaa property de krr
+
+- agal-bagal box aa gaye
+- abb hmm inspect krr ke chhota krr rhe toh box aapas me satt ja rha 
+- agar hmm flex-wrap:wrap; property de de toh , inspect krr ke chhota karegen
+  toh box aapan me sategen nhi jagah na rahne se  "ek box dusare box ke niche aa jayega" 
+
+```
 
 ## Display property in css
 - display : block;
