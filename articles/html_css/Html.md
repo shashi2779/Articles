@@ -131,6 +131,7 @@
 - class : 
   - A Class name can be used by multiple HTML elements
   - kisi bhi html element ko same class nam de sakte hai
+  - multiple html element ko hmm same class name de sakte hai
 - id:
   - while an ID name must only be used by one HTML element within the page
   - unique ,
