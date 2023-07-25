@@ -88,7 +88,7 @@
 - <meta name="robots"    content="Index,Follow">
       - aapki website ko search engine me rank milegi      
 ```
-### Tags vs Attributes vs element
+### Tags vs Element vs Attributes
 ###### tags :
 - HTML tags are used to hold the HTML element
 - HTML tag start with "<" and end with ">"
