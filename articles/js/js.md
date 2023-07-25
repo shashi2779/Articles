@@ -496,3 +496,96 @@ const mergeArray = (arr1,arr2) =>{
 
 
 ```
+## Interviews questions 
+- variable shadowing
+```js
+//  variable shadowing
+
+function test(){
+    var a = "hello"
+    let b = "bye"
+
+    if(true){
+        let a = "hii"        // let a variable shadow the var a 
+        var b = "good bye"  // illegal shadowing =>  Identifier 'b' has already been declared
+        console.log(a);
+        console.log(b)
+    }
+}
+
+test()
+
+
+Note :
+======
+- agar bahar "let" nam se variable hai aur block scope me "var" nam se same variable declared hai toh illegal shadowing kahlati hai.
+
+-  Identifier 'b' has already been declared
+
+```
+- Temporal dead zone
+```js
+// temporal dead zone => Is the time between the declaration and the initialization of let and const variable.
+
+```
+### map , filter , reducer
+- map , filter , reducer are basically array function
+##### map method 
+- creates a new array from calling a function for every array element.
+- map fun takes a callback fun
+- does not execute the function for empty elements.
+- does not change the original array.
+```js
+ const nums = [1,2,3,4,5]
+
+let newArr = nums.map((num)=>{
+      return num
+})
+
+console.log(newArr)   // [1,2,3,4,5]
+
+
+-----------------------------------------------
+
+const nums = [1,2,3,4,5]
+
+let newArr = nums.map((num)=>{
+      return num * 3
+})
+
+console.log(newArr)   // [3,6,9,12,15]
+
+```
+
+##### filter method 
+- the filter method takes each element in array and apply conditional statement against it. if the conditional returns true the element gets puts into the output array. 
+if the conditional returns false the element does not get puts into output array.
+```js
+
+const nums = [1,2,3,4,5]
+
+let newArr = nums.filter((num)=>{
+      return num>2
+})
+
+console.log(newArr)   // [3,4,5]
+
+```
+
+##### reduce method 
+- the reduce method reduces an array of value down just one value 
+- it recieve two things 1- accumulator  2- value
+-  method returns a single value: the function's accumulated result.
+-  method does not execute the function for empty array elements.
+-  method does not change the original array.
+```js
+
+const nums = [1,2,3,4,5]
+
+let sum = nums.reduce((acc,value)=>{
+      return acc + value;
+},0)
+
+console.log(sum)   // 15
+
+```

@@ -224,16 +224,16 @@ let users = [
 
 // solution - 4 :
 
-const isNameExit = (name, users) => {
+// const isNameExit = (name, users) => {
 
-    const user = users.some((user) => user.name === name)
+//     const user = users.some((user) => user.name === name)
 
-    return user;
-}
+//     return user;
+// }
 
-// esko console prr run karaye 
-isNameExit('shashikant', users)  // true
-isNameExit('xaxi', users)  //  false
+// // esko console prr run karaye 
+// isNameExit('shashikant', users)  // true
+// isNameExit('xaxi', users)  //  false
 
 //---------------------------------------------------------------------------------------
 
@@ -338,11 +338,13 @@ isNameExit('xaxi', users)  //  false
 
 // solution - 3 : 
 
-const mergeArray = (arr1,arr2) =>{
-    return arr1.concat(...arr2)
-}
+// const mergeArray = (arr1,arr2) =>{
+//     return arr1.concat(...arr2)
+// }
  
- const arr1 = [1]
- const arr2 = [2,3]
- const result = mergeArray(arr1,arr2)
- console.log(result,arr1,arr2)   // [1,2,3],[1],[2,3]
+//  const arr1 = [1]
+//  const arr2 = [2,3]
+//  const result = mergeArray(arr1,arr2)
+//  console.log(result,arr1,arr2)   // [1,2,3],[1],[2,3]
+
+
