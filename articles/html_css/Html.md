@@ -91,7 +91,7 @@
 ### Tags vs Element vs Attributes
 ###### tags :
 - HTML tags are used to hold the HTML element
-- HTML tag start with "<" and end with ">"
+- HTML tag start with less than sign("<") and end with grater than sign(">")
 ```js
  <h1>............</h1>
 ```
