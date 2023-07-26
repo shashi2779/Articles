@@ -701,7 +701,7 @@ https://www.youtube.com/watch?v=xBSlwwitD5U
 ```js
 flex-size : 100px;  ❌ wrong approach  // it can not change/scalable
 
-flex-size: 7vw;     ✔  // relative to viewport
+flex-size: 7vmax/vw;     ✔  // relative to viewport
 flex-size: 7rem;  // relative to html element
 flex-size: 7em;  // it depends on parent element
 ```
