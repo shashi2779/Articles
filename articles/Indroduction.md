@@ -75,7 +75,8 @@ why you are leaving your company
   i like to take challenges that motivates me to do good.
 
 
-- 2nd ans =>  bcz mam/sir , In this company work culture is not good.work load is more approx 16-17/18 h work on daily bases.
+- 2nd ans =>  bcz mam/sir , In this company work culture is not good.work load is more approx 16-17/18 h 
+  work on daily bases.
   I want work life balance then salary matters to me.
 
 
