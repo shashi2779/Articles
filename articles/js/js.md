@@ -1,3 +1,6 @@
+### What are the Different Types of Errors in JavaScript?
+[Types of Errors in JavaScript](https://www.scaler.com/topics/types-of-errors-in-javascript/)
+
 ###  filter , map , forloop ,forEach() ,sort()
 
 ##### get name from users array
